@@ -1,0 +1,277 @@
+.bgimg{
+	background-image: url('../portfolio/cs2.png');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 650px;
+}
+.headerset{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.headerset h2{
+    font-size: 72px;
+    color: rgb(248, 77, 248);
+}
+.headerset h1{
+	font-size: 52px;
+    font-weight: bold;
+    color: salmon;
+}
+
+.hh{
+    background-repeat: repeat-x;
+    animation-duration: 20s;
+	animation: hh 0.8s ease-in infinite alternate-reverse;
+    
+        
+      
+}
+@keyframes hh{
+    50%{
+        color: white;
+        text-shadow: 2px 2px 4px #ffcc00;
+    }
+}
+.ht:hover{
+    animation: ht 0.8s ease-in infinite alternate-reverse;
+   
+	 
+
+}
+@keyframes ht{
+    100%{
+         color: rgb(0, 255, 213);
+         text-shadow: 2px 2px 4px rgb(0, 128, 117);
+    }
+}
+.sec1 h4{
+    margin-top: 0%;
+    font-family: comic sans;
+    color: rgb(68, 24, 109);
+    
+}
+.sec1 h1{
+    margin-top: 1%;
+    font-family: comic sans;
+    color: rgb(8, 67, 80);
+    font-size: 50px;
+    font-weight: bold;
+}
+.a1{
+    margin-top: 1.5px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: blueviolet;
+}
+.sec2 h1{
+    margin-top: 2%;
+    font-family: comic sans;
+    color: rgb(8, 67, 80);
+    font-size: 50px;
+    font-weight: bold;
+}
+.imgset{
+    border-radius: 50%;
+	height: 100px;
+	width: 100px;
+
+}
+.sec2{
+    background: linear-gradient(140deg,pink,white);
+    height: 600px;
+}
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    font-family: roboto;
+    border-radius: 10px;
+    background-color: rgb(53, 39, 39);
+    box-shadow: 5px 5px 15px rgba(128, 86, 120, 0.9);
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: white;
+
+
+}
+.card-image{
+    grid-area: image;
+}
+.card-text{
+    grid-area: text;
+}
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(120, 80, 110, 0.6);
+}
+.sec3 h1{
+     
+        margin-top: 1%;
+        font-family: comic sans;
+        color: rgb(8, 67, 80);
+        font-size: 50px;
+        font-weight: bold;
+   
+}
+.sec3{
+    background: linear-gradient(140deg,rgb(162, 215, 240),white);
+    font-family: comic sans;
+    font-size: 20px;
+    height: 510px;
+}
+.a4{
+    font-family: comic sans;
+    font-size: 60px;
+}
+.a5{
+    margin-top: 12%;
+     
+    
+}
+.d1{
+    margin-left: -12%;
+    transition: 0.5s ease;
+    background:  rgb(229, 183, 243);
+    box-shadow: 5px 5px 15px  darkcyan;
+}
+.d2{
+    margin-left: -12%;
+    transition: 0.5s ease;
+    background: rgb(229, 183, 243);
+    box-shadow: 5px 5px 15px  darkcyan;
+}
+
+.d3{
+    margin-left: -12%;
+    transition: 0.5s ease;
+    background:  rgb(229, 183, 243);
+    box-shadow: 5px 5px 15px  darkcyan;
+     
+}
+.d4{
+    margin-left: -12%;
+    transition: 0.5s ease;
+    background:  rgb(229, 183, 243);
+    box-shadow: 5px 5px 15px  darkcyan;
+     
+
+}
+ 
+.d4:hover{
+    transform: scale(1.5);
+    background: linear-gradient(20deg,rgb(181, 181, 211),white);
+    box-shadow: 5px 5px 15px rgb(252, 170, 170);
+
+}
+ 
+.d1:hover{
+    transform: scale(1.5);
+    background: linear-gradient(20deg,rgb(181, 181, 211),white);
+    box-shadow: 5px 5px 15px rgb(252, 170, 170);
+
+}
+.d2:hover{
+    transform: scale(1.5);
+    background: linear-gradient(20deg,rgb(181, 181, 211),white);
+    box-shadow: 5px 5px 15px rgb(252, 170, 170);
+
+}
+.d3:hover{
+    transform: scale(1.5);
+    background: linear-gradient(20deg,rgb(181, 181, 211),white);
+    box-shadow: 5px 5px 15px rgb(252, 170, 170);
+
+}
+.sec4{
+    margin-top: 2%;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(100deg,rgb(137, 255, 137),white);
+     
+}
+.sec4-image{
+    height: 10px;
+    width: 10px;
+}
+.f1{
+    padding: 1.5px;
+}
+.f2{
+    padding: 1.5px;
+}
+.f3{
+    padding: 1.5px;
+}
+
+.f1:hover{
+    box-shadow: 5px 5px 15px rgb(248, 122, 122);
+    height: 50px;
+    width: 50px;
+    
+}
+.f2:hover{
+    box-shadow: 5px 5px 15px rgb(248, 122, 122);
+    height: 50px;
+    width: 50px;
+    
+}
+ 
+.r1{
+    display: inline-flex;
+}
+.sec4 h2{
+    box-shadow:5px 5px 15px darkgray;
+    width: 40%;
+    margin-left: 30%;
+}
+.f4{
+    text-align: center;
+    font-family: comic sans;
+    font-size: 20px;
+    box-shadow: 5px 5px 15px darksalmon;
+    margin-left: 30%;
+}
+.ex{
+    background: linear-gradient(80deg, rgb(247, 214, 123),rgb(240, 233, 186));
+    height: 399px;
+    width: auto;
+
+}
+.c1{
+    background: linear-gradient(100deg,rgb(39, 39, 37),black);
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    font-size: 12px;
+    padding: 2rem;
+    font-family: monospace;
+    box-shadow: 5px 5px 5px grey;
+    margin-left: 3%;
+    height: 300px;
+
+}
+.c1:hover{
+    background: linear-gradient(100deg,rgb(39, 39, 37),black);
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    font-size: 15px;
+    padding: 2rem;
+    font-family: monospace;
+    box-shadow: 5px 5px 5px grey;
+    margin-left: 2%;
+    height: 300px;
+    animation-name: c1;
+   
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: 0.8s ease-in;
+     
+     
+    
+}
+@keyframes c1{
+   100% { transform: scale(1.2) translateY(2rem);
+    }}
+   
