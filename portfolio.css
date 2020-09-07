@@ -1,16 +1,4 @@
-@import url(bootstrap.css);
-@import url(bootstrap-responsive.css);
 
-/* Body */
-body {
-    padding-top: 60px;
-    padding-bottom: 40px;   
-}   
-
-/* Footer */
-footer {
-    padding: 20px 0;
-}
 .bgimg{
 	background-image: url(cs2.png);
 	background-size: 100% 100%;
