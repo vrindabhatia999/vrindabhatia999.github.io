@@ -74,8 +74,8 @@
 }
 .imgset{
     border-radius: 50%;
-	height: 100px;
-	width: 100px;
+	height: 90px;
+	width: 90px;
 
 }
 .sec2{
@@ -237,6 +237,7 @@
 }
 .ex{
     background: linear-gradient(80deg, rgb(247, 214, 123),rgb(240, 233, 186));
+    padding: 2rem;
   
     width: auto;
 
