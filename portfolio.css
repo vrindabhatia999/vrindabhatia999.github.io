@@ -250,6 +250,7 @@
     padding: 2rem;
     font-family: monospace;
     box-shadow: 5px 5px 5px grey;
+    transition: 0.5s ease;
    
 
 }
@@ -262,17 +263,12 @@
     font-family: monospace;
     box-shadow: 5px 5px 5px grey;
     margin-left: 2%;
+    transform: scale(1.2);
     
-    animation-name: c1;
-   
-    animation-duration: 1s;
-    animation-direction: alternate;
-    animation-timing-function: 0.8s ease-in;
+     
      
      
     
 }
-@keyframes c1{
-   100% { transform: scale(1.2) translateY(2rem);
-    }}
+ 
 
