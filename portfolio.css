@@ -1,5 +1,5 @@
 .bgimg{
-	background: linear-gradient(120deg,purple,white);
+	background-image: url(cs3.png);
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	width: 100%;
