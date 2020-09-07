@@ -59,7 +59,7 @@
     font-weight: bold;
 }
 .a1{
-    margin-top: 1.5px;
+    
     font-family: monospace;
     font-weight: bold;
     font-size: 15px;
@@ -127,32 +127,32 @@
     font-size: 60px;
 }
 .a5{
-    margin-top: 12%;
+     
      
     
 }
 .d1{
-    margin-left: -12%;
+    
     transition: 0.5s ease;
     background:  rgb(229, 183, 243);
     box-shadow: 5px 5px 15px  darkcyan;
 }
 .d2{
-    margin-left: -12%;
+  
     transition: 0.5s ease;
     background: rgb(229, 183, 243);
     box-shadow: 5px 5px 15px  darkcyan;
 }
 
 .d3{
-    margin-left: -12%;
+   
     transition: 0.5s ease;
     background:  rgb(229, 183, 243);
     box-shadow: 5px 5px 15px  darkcyan;
      
 }
 .d4{
-    margin-left: -12%;
+     
     transition: 0.5s ease;
     background:  rgb(229, 183, 243);
     box-shadow: 5px 5px 15px  darkcyan;
@@ -186,7 +186,7 @@
 
 }
 .sec4{
-    margin-top: 2%;
+    
      
     background: linear-gradient(100deg,rgb(137, 255, 137),white);
      
@@ -231,7 +231,7 @@
     font-family: comic sans;
     font-size: 20px;
     box-shadow: 5px 5px 15px darksalmon;
-    margin-left: 30%;
+    
 }
 .ex{
     background: linear-gradient(80deg, rgb(247, 214, 123),rgb(240, 233, 186));
@@ -247,7 +247,6 @@
     padding: 2rem;
     font-family: monospace;
     box-shadow: 5px 5px 5px grey;
-    margin-left: 3%;
    
 
 }
